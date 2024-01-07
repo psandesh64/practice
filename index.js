@@ -8,12 +8,7 @@ let contact =[
         id : 1,
         name : "Ram",
         number : 9856326
-    },
-    {
-        id : 2,
-        name : "Sita",
-        number : 985621
-    },
+    }
 ]
 const requestLogger = (request,response,next) => {
     console.log('Method',request.method);
